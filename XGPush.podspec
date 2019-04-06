@@ -1,17 +1,17 @@
 Pod::Spec.new do |s|
   s.name              = "XGPush"
-  s.version           = "3.1.0"
+  s.version           = "3.3.5"
   s.summary           = "信鸽推送 for Cocoapods"
   s.description      = <<-DESC
     腾讯信鸽推送。
                        DESC
   s.homepage          = "https://github.com/HyanCat"
   s.authors           = {
-    "HyanCat" => "hyancat@live.cn"
+    "HyanCat" => "hyancat.cn@gmail.com"
   }
   s.license           = { :type => 'Copyright', :text => 'Copyright HyanCat All Right Reserved.' }
   s.source            = {
-    :http => "https://xg.qq.com/pigeon_v2/resource/sdk/Xg-Push-SDK-iOS-3.1.0.zip"
+    :http => "https://xg.qq.com/pigeon_v2/resource/sdk/Xg-Push-SDK-iOS-3.3.5.zip"
   }
   s.platform          = :ios, "8.0"
   s.frameworks        = "SystemConfiguration", "CoreTelephony"
